@@ -1,0 +1,30 @@
+.product {
+    border: 1px solid #95A0A7;
+    padding: 7px;
+    position: relative;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+.product .cartBtn {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-family: 'lato';
+    font-size: 15px;
+    line-height: 18px;
+    background-color: #FFE0B3
+    ;
+    padding: 12px;
+    border: none;
+    transition: all .3s;
+}
+.product .cartBtn:hover {
+    background-color: #FF9900
+    ;
+}

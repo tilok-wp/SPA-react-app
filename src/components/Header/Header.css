@@ -1,0 +1,22 @@
+.main-header {
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+}
+.main-header li {
+    list-style: none;
+    display: inline-block;
+}
+.main-header li a {
+   text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-left: 20px;
+    font-size: 17px;
+    transition: all .3s;
+}
+.main-header li:hover a {
+    color: #ff9900;
+}
